@@ -1,0 +1,29 @@
+{
+    "name": "aws-assume-role",
+    "version": "1.0.0",
+    "description": "A node function to assume a IAM Role",
+    "main": "index.js",
+    "scripts": {
+        "assume-role": "node bin/cli",
+        "test": "mocha"
+    },
+    "bin": {
+        "aws-assume-role": "bin/cli.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://mark-stickytickets@github.com/stickytickets/node-aws-assume-role.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/stickytickets/node-aws-assume-role/issues"
+    },
+    "homepage": "https://github.com/stickytickets/node-aws-assume-role#readme",
+    "dependencies": {
+        "aws-sdk": "^2.3.13"
+    },
+    "devDependencies": {
+        "mocha": "^2.4.5"
+    }
+}
